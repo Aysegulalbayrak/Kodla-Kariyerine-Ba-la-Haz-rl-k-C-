@@ -13,7 +13,7 @@ namespace hataYonetimi
             Console.WriteLine("Bir sayı giriniz: ");
             int sayi =Convert.ToInt32(Console.ReadLine());
             Console.WriteLine( "Girmiş olduğunuz sayı: "+sayi);
-;
+
             }
             catch(Exception ex)
             {
@@ -28,7 +28,7 @@ namespace hataYonetimi
             {
                 int a= int.Parse(null);
            
-;
+
             }
             catch(ArgumentNullException ex)
             {
@@ -41,9 +41,9 @@ namespace hataYonetimi
             try
             {
                 //int a= int.Parse("test");
-                int a = int.Parse("-200000000000")
+                int a = int.Parse("-200000000000");
            
-;
+
             }
             catch(FormatException ex)
             {
